@@ -21,5 +21,6 @@ import home.views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('home', home.views.home)
+    path('home', home.views.home),
+    path('cache', home.views.cache_alternative)
 ]
